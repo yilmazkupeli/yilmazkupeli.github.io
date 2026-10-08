@@ -6,7 +6,57 @@
 <title>Yılmaz Küpeli | Roman Yazarı</title>
 <meta name="description" content="Yılmaz Küpeli'nin resmî yazar sitesi. Romanları, kitapları ve yazarlık çalışmaları.">
 <meta name="author" content="Yılmaz Küpeli">
-<style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": "https://yilmazkupeli.github.io/#profile",
+      "url": "https://yilmazkupeli.github.io/",
+      "name": "Yılmaz Küpeli | Roman Yazarı",
+      "mainEntity": {
+        "@id": "https://yilmazkupeli.github.io/#author"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://yilmazkupeli.github.io/#author",
+      "name": "Yılmaz Küpeli",
+      "url": "https://yilmazkupeli.github.io/",
+      "jobTitle": "Roman Yazarı",
+      "description": "Yılmaz Küpeli, roman yazarı ve 2026 yılında yayımlanan eserlerin yazarıdır.",
+      "mainEntityOfPage": {
+        "@id": "https://yilmazkupeli.github.io/#profile"
+      },
+    },
+    {
+      "@type": "Book",
+      "@id": "https://yilmazkupeli.github.io/#book-209",
+      "name": "209 – Hatırlanmak İnsanı Yaşatır",
+      "author": {
+        "@id": "https://yilmazkupeli.github.io/#author"
+      },
+      "datePublished": "2026",
+      "inLanguage": "tr",
+      "image": "https://yilmazkupeli.github.io/209_hatirlanmak.jpg",
+      "url": "https://www.kobo.com/us/en/ebook/209-hat-rlanmak-nsan-yasat-r"
+    },
+    {
+      "@type": "Book",
+      "@id": "https://yilmazkupeli.github.io/#book-kayip-kimlikler",
+      "name": "Kayıp Kimlikler",
+      "author": {
+        "@id": "https://yilmazkupeli.github.io/#author"
+      },
+      "datePublished": "2026",
+      "inLanguage": "tr",
+      "image": "https://yilmazkupeli.github.io/kayip_kimlikler.jpg",
+      "url": "https://www.kobo.com/nl/nl/ebook/kayp-kimlikler"
+    }
+  ]
+}
+</script>
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#090909;color:#f2f2f2;font-family:Georgia,serif;line-height:1.65}
 nav{position:fixed;top:0;left:0;right:0;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:rgba(9,9,9,.82);backdrop-filter:blur(12px);z-index:5;border-bottom:1px solid #222}
 .logo{font-weight:bold;letter-spacing:2px;font-size:15px}nav a{color:#ccc;text-decoration:none;margin-left:25px;font-family:Arial,sans-serif;font-size:13px}
